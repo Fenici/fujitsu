@@ -1,0 +1,13 @@
+.size-1140  {
+  margin:0 auto;
+  max-width:90em;
+/*  max-width:71.25em; stander largest breakpoint 1140
+*/  padding:0 0.625em;
+}
+
+@media screen and (max-width:480px) {
+.size-1140 {max-width:480px;}
+}
+@media screen and (max-width:768px) {
+.size-1140 {max-width:768px;}
+

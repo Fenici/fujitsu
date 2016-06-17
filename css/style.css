@@ -5349,8 +5349,11 @@ hr.arrow-down:after {
     .main-services {
         background-color: #ffffff;
         padding-bottom: 50px;
-    }
 
+    }
+.main-services p{
+    font-size: 12px;
+}
     .reason {
         margin-top: 60px;
         border-left: 3px solid #711313;
@@ -5393,7 +5396,9 @@ hr.arrow-down:after {
 /**/
 
     /*offer */
-
+.offer{
+ background-color: #ffffff;
+}
 
     /*footer*/
 

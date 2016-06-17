@@ -964,8 +964,7 @@ pre code {
 .container {
     margin-right: auto;
     margin-left: 0;
-    /*  padding-left: 15px;
-  padding-right: 15px;*/
+    width:100%;
 }
 
 @media (min-width: 768px) {
@@ -983,6 +982,8 @@ pre code {
 @media (min-width: 1200px) {
     .container {
         width: 1030px;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
 
@@ -996,6 +997,7 @@ pre code {
 .row {
     margin-left: -15px;
     margin-right: -15px;
+
 }
 
 .col-xs-1,
@@ -4542,22 +4544,19 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 .carousel-indicators {
-    position: absolute;
     bottom: 10px;
     z-index: 15;
     width: 100%;
-    margin-left: -5%;
-    padding-left: 0;
+/*    margin-left: -5%;
+    padding-left: 0;*/
     list-style: none;
     text-align: right;
 }
 
 .carousel-indicators li {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin: 1px;
-    text-indent: -999px;
+    float:left;
+    width: 33.33%;
+    height: 230px;
     border: 3px solid rgba(255, 255, 255, .6);
     border-radius: 0;
     cursor: pointer;
@@ -5081,17 +5080,15 @@ hr.arrow-down:after {
     /*** Slideshow controls ***/
 
     a.carousel-arrow {
-        height: 60px;
+        height: 230px;
         width: 60px;
         border-radius: 0;
         line-height: 60px;
         text-align: center;
         position: absolute;
         display: block;
-        top: 50%;
-        margin-top: -25px;
-        background: transparent;
-        color: transparent;
+        background: #d30909;
+        color: white;
         font-size: 32px;
         font-weight: 300;
         cursor: pointer;
@@ -5111,18 +5108,19 @@ hr.arrow-down:after {
     a.carousel-arrow:hover,
     a.carousel-arrow:active {
         text-decoration: none;
+        color:#d30909;
     }
 
     a.carousel-arrow-prev {
-        left: 10px;
+        left: 0;
         right: auto;
-        padding-right: 5px;
+        padding-top: 80px;
     }
 
     a.carousel-arrow-next {
-        right: 10px;
+        right: 0;
         left: auto;
-        padding-left: 5px;
+        padding-top: 80px;
     }
     /* ===== Sidebar ===== */
 
@@ -5183,12 +5181,14 @@ hr.arrow-down:after {
         vertical-align: bottom;
     }
     /* ===== Wrapper ===== */
-/*
-    .wrapper {
-        margin: 0 auto;
-        max-width: 90em;
-        height: 100%;
-    }*/
+.wrapper {
+  background-color:     #e3e3e3;
+  min-height: 100%;
+  height: auto !important;
+  /* for older versions of IE */
+  height: 100%;
+  /* navbar height + margin */
+}
     /* ===== Homepage Slider ===== */
 
     .home-slider {
@@ -5344,3 +5344,32 @@ hr.arrow-down:after {
             line-height: 45px;
         }
     }
+/*why choose*/
+.main-services{
+    background-color: #ffffff;
+}
+
+.reason{
+    margin-top: 60px;
+    border-left:3px solid #711313;
+    font-family: "Roboto" serif;
+    font-size: 36px;
+
+
+}
+
+.summary{
+    border:2px solid #3df;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+/*footer*/
+.copyright{
+    float:right;
+}
+
+

@@ -981,9 +981,8 @@ pre code {
 
 @media (min-width: 1200px) {
     .container {
-        width: 1030px;
-        margin-right: auto;
-        margin-left: auto;
+        width: 100%;
+
     }
 }
 
@@ -5365,11 +5364,34 @@ hr.arrow-down:after {
 }
 
 
+.text_container {
+    margin-right: auto;
+    margin-left: 0;
+    width:100%;
+}
 
+@media (min-width: 768px) {
+    .text_container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .text_container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .text_container {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
 
 /*footer*/
 .copyright{
     float:right;
 }
-
 

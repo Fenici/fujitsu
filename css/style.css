@@ -2518,6 +2518,8 @@ body{
         font-size: 14px;
         line-height: 1.42857143;
         text-decoration: none;
+        border-radius: 2px;
+    text-transform: uppercase;
         -webkit-user-select: none;
         -moz-user-select: none;
         -ms-user-select: none;
@@ -2621,7 +2623,7 @@ body{
     .btn-default {
         color: #ffffff;
         background-color: transparent;
-        border-color: #cccccc;
+        border-color: #ffffff;
     }
 
     .btn-default:hover,
@@ -2630,7 +2632,7 @@ body{
     .btn-default.active,
     .open .dropdown-toggle.btn-default {
         color: #333333;
-        background-color: #ebebeb;
+        background-color: #4b4b4b;
         border-color: #adadad;
     }
 

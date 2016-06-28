@@ -43,21 +43,26 @@
                         <li><a href="product.html" data-toggle="tooltip" data-placement="left" title="FUJITSU Enterprise Postgres and PostgreSQL">Product</a></li>
                         <li><a href="solution.html" data-toggle="tooltip" data-placement="left" title="TEnd-to-end PostgreSQL solutions">Solution</a></li>
                         <li><a href="contact.html" data-toggle="tooltip" data-placement="left" title="Tooltip on left">Contact</a></li>
-                        <li id="number" data-toggle="tooltip" data-placement="left" title="Tooltip on left"> <img src="images/phone.svg" class="phone" alt="phone">
+                        <li id="number" data-toggle="tooltip" data-placement="left" title="Contact Us"> <img src="images/phone.svg" class="phone" alt="phone">
                             <span>&nbsp;&nbsp;+61&nbsp;2&nbsp;9452&nbsp;9191 </span></li>
                     </ul>
                     <div class="phone-logo ">
                         <div id="navbar-phone-box ">
-                            <a href=""><img src="images/postgresql-logo.png" width="150px" height="60px" alt="postgresql"></a>
+                            <a href=""><img src="images/postgresql-logo.png" width="150px" height="60px" class="postgresql" alt="postgresql"></a>
                         </div>
                     </div>
                 </div>
+
+                <div id="bar"></div>
             </div>
+
     </header>
     <!-- /header -->
     <!-- Wrapper -->
     <div class="wrapper">
         <!-- Home Slider -->
+               <div class="row">
+
         <div class="home-slider">
             <!-- Carousel -->
             <div id="home-slider" class="carousel slide" data-ride="carousel">
@@ -78,7 +83,7 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-3 col-md-offset-1 hidden-xs">
-                                    <img class="img-responsive animated bounceInDown" src="images/red.png" alt="banner">Fujitsu Technology and Services 2016
+                                    <img class="img-responsive animated bounceInDown home-banner" src="images/red.png" alt="banner">Fujitsu Technology and Services 2016
                                 </div>
                                 <ul>
                                     <h1 class="animated slideInDown delay-1">End-to-end Solutions</h1>
@@ -101,7 +106,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-md-offset-1">
-                                    <h2 class="first-child animated fadeInUpBig delay-2">Reduce your database TCO by 80% or more</h2>
+                                    <h1 class="first-child animated fadeInUpBig delay-2">Reduce your database TCO by 80% or more</h1>
                                     <ul class="string">
                                         <li class="animated slideInDown delay-3"> Let us show you how to drastically reduce the TCO of your enterprise database while maintaining performance and reliability.</li>
                                         <li class="btn btn-lg btn-default animated bounceInDown delay-6"> <strong>See how</strong></li>
@@ -117,11 +122,16 @@
                     <div class="item" id="item-3">
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-6 col-md-offset-1 hidden-xs">
+                                <div class="col-sm-6 hidden-xs">
+                                    <img class="img-responsive animated bounceInDown" src="images/red.png" alt="...">
+                                </div>
+                                <div class="col-sm-6">
+                                    <h1 class="first-child animated slideInRight delay-2">PostgreSQL support 24/7
+</h1>
                                     <ul>
-                                        <h1 class="animated slideInRight delay-3"><small>PostgreSQL support 24/7</small></h1>
-                                        <li class="animated slideInRight delay-4"> We provide full 24/7 technical support for production PostgreSQL systems.</li>
-                                        <li class="btn btn-lg btn-default animated bounceInDown delay-6"><strong>See our support offerings</strong></li>
+                                        <li class="animated slideInRight delay-4"><i class="fa fa-star"></i> We provide full 24/7 technical support for production PostgreSQL systems.
+                                        </li>
+                                        <li class="btn btn-lg btn-default animated bounceInDown delay-6"> <strong>See how</strong></li>
                                     </ul>
                                 </div>
                             </div>
@@ -130,13 +140,14 @@
                         <!-- / .container -->
                     </div>
                     <!-- / .item -->
+                    <!-- / .item -->
                     <!-- Slide #4 -->
                     <div class="item" id="item-3">
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-6 col-md-offset-1 hidden-xs">
+                                <div class="col-sm-6 hidden-xs hidden-xs">
                                     <ul>
-                                        <h1 class="animated slideInRight delay-3"><small>Break the chains of vendor lock-in</small></h1>
+                                        <h1 class="first-child animated slideInRight delay-2"><small>Break the chains of vendor lock-in</small></h1>
                                         <li class="animated slideInRight delay-4">Reap the rewards of Fujitsu’s database migration assessment.</li>
                                         <li class="btn btn-lg btn-default animated bounceInDown delay-6"><strong>View our migration services</strong></li>
                                     </ul>
@@ -153,7 +164,7 @@
                             <div class="row">
                                 <div class="col-md-6 col-md-offset-1 hidden-xs">
                                     <ul>
-                                        <h1 class="animated slideInRight delay-3"><small>How well is your PostgreSQL database performing?
+                                        <h1 class="first-child animated slideInRight delay-2"><small>How well is your PostgreSQL database performing?
 </small></h1>
                                         <li class="animated slideInRight delay-4">Is your PostgreSQL database performing at its best?</li>
                                         <li class="animated slideInRight delay-4">Let our PostgreSQL experts check it for you.</li>
@@ -172,7 +183,7 @@
                             <div class="row">
                                 <div class="col-md-6 col-md-offset-1 hidden-xs">
                                     <ul>
-                                        <h1 class="animated slideInRight delay-3"><small>Is your infrastructure letting you down?
+                                        <h1 class="first-child animated slideInRight delay-2"><small>Is your infrastructure letting you down?
 
 </small></h1>
                                         <li class="animated slideInRight delay-4">Let us benchmark and recommend hardware upgrades and</li>
@@ -192,7 +203,7 @@
                             <div class="row">
                                 <div class="col-md-6 col-md-offset-1 hidden-xs">
                                     <ul>
-                                        <h1 class="animated slideInRight delay-3"><small>Improve your operations through "best practice"
+                                        <h1 class="first-child animated slideInRight delay-2"><small>Improve your operations through "best practice"
 
 
 </small></h1>
@@ -214,7 +225,7 @@
                             <div class="row">
                                 <div class="col-md-6 col-md-offset-1 hidden-xs">
                                     <ul>
-                                        <h1 class="animated slideInRight delay-3"><small>FUJITSU Enterprise Postgres 9.5 now available
+                                        <h1 class="first-child animated slideInRight delay-2"><small>FUJITSU Enterprise Postgres 9.5 now available
 
 
 </small></h1>
@@ -243,12 +254,13 @@
             </div>
 
 
-
-            <div class="container">
+            <div class="text_container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="service-indicator">
                             <h2>Training</h2></div>
+
+                            <div class="train">
                         <h3>Be trained by Fujitsu's PostgreSQL experts!
 </h3>
                         <p>Fujitsu's extensive experience in software development and migration allows it to tailor the training to customer requirements and answer questions based on experience. Fujitsu has contributed to the PostgreSQL community since 2004 and continues to do so. In fact, the most recent release of PostgreSQL, 9.5, includes features contributed by Fujitsu. The long-term relationship Fujitsu has with the PostgreSQL community ensures our training team is ahead of the game.
@@ -272,10 +284,13 @@
                             </li>
                         </ul>
                     </div>
+                    </div>
+
                 </div>
             </div>
-            <div class="content-wrapper">
-                <div class="col-md-2">
+            <div class="text_container">
+                <div class="row">
+                <div class="col-md-3">
                     <div id="sidebar">
                         <ul>
                             <li><a class="active" href="#DBA">PostgresSQL DBA</a></li>
@@ -286,42 +301,43 @@
                 </div>
                 <div class="col-md-8">
                     <div class="content">
-                        <div id="DBA">
+                        <div id="DBA" >
                             <div class="service-indicator">
                                 <h2>PostgresSQL DBA</h2></div>
+                                <div class="train">
                             <p>The PostgreSQL DBA training course is designed for advanced users with existing DBA skills such as Oracle, MySQL or DB2. It provides the skills necessary to maintain PostgreSQL instances in a production environment. Fujitsu tailors these courses based on the customer's requirements and is therefore able to change the course emphasis if required.</p>
                             <p>The course covers the following topics: </p>
                             <ul>
                                 <li>
-                                    <p>o PostgreSQL installation and setup
+                                    <p>PostgreSQL installation and setup
                                     </p>
                                 </li>
                                 <li>
-                                    <p>o Advanced PostgreSQL configuration
+                                    <p> Advanced PostgreSQL configuration
                                     </p>
                                 </li>
                                 <li>
-                                    <p>o User and security management
+                                    <p>User and security management
                                     </p>
                                 </li>
                                 <li>
-                                    <p>o Advanced PostgreSQL administration
+                                    <p>Advanced PostgreSQL administration
                                     </p>
                                 </li>
                                 <li>
-                                    <p>o Backup and restore
+                                    <p> Backup and restore
                                     </p>
                                 </li>
                                 <li>
-                                    <p>o High availability
+                                    <p> High availability
                                     </p>
                                 </li>
                                 <li>
-                                    <p>o Advanced PostgreSQL monitoring
+                                    <p> Advanced PostgreSQL monitoring
                                     </p>
                                 </li>
                                 <li>
-                                    <p>o Query performance
+                                    <p> Query performance
                                     </p>
                                 </li>
                             </ul>
@@ -336,11 +352,11 @@
                             </p>
                             <ul>
                                 <li>
-                                    <p>o Advanced SQL - includes PostgreSQL-specific language features, query optimization, query rewriter, rules, triggers, views, scan types, joins, sorts, aggregation, explain, indexes, statistics, common query problems, clustering and reindexing
+                                    <p>Advanced SQL - includes PostgreSQL-specific language features, query optimization, query rewriter, rules, triggers, views, scan types, joins, sorts, aggregation, explain, indexes, statistics, common query problems, clustering and reindexing
                                     </p>
                                 </li>
                                 <li>
-                                    <p>o PL/PgSQL procedural language - includes syntax and structure, data types, loops and constructs, exception handling, set returns and diagnostics
+                                    <p> PL/PgSQL procedural language - includes syntax and structure, data types, loops and constructs, exception handling, set returns and diagnostics
                                     </p>
                                 </li>
                             </ul>
@@ -357,33 +373,35 @@
                             </p>
                             <ul>
                                 <li>
-                                    <p>o Replication concepts
+                                    <p> Replication concepts
                                     </p>
                                 </li>
                                 <li>
-                                    <p>o PITR backup and recovery
+                                    <p>PITR backup and recovery
                                     </p>
                                 </li>
                                 <li>
-                                    <p>o Warm and hot standby
+                                    <p> Warm and hot standby
                                     </p>
                                 </li>
                                 <li>
-                                    <p> o Streaming replication
+                                    <p> Streaming replication
                                     </p>
                                 </li>
                                 <li>
-                                    <p> o Slony
+                                    <p>  Slony
                                     </p>
                                 </li>
                                 <li>
-                                    <p> o Load balancing using pgpool-II
+                                    <p> Load balancing using pgpool-II
                                     </p>
                                 </li>
                             </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
     </div>
 
